@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd app && \
-    yarn install && \
-    yarn build:web && \ 
-    cd packages/web
+yarn install && \
+     yarn build:web && \ 
+     cd packages/web
