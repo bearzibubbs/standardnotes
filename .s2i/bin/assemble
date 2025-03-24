@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mv -r /workspace/source/* /opt/app-root/src/ && \
+mv /workspace/source/* /opt/app-root/src/ && \
     yarn install && \
     yarn build:web && \ 
     cd packages/web
