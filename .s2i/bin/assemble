@@ -1,6 +1,7 @@
 #!/bin/bash
 
-npm install -g yarn &&\
+corepack enable && \
+    npm install -g yarn &&\
     mv /tmp/src/* /opt/app-root/src/ && \
     yarn install && \
     yarn build:web && \ 
