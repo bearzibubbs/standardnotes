@@ -1,5 +1,5 @@
 #!/bin/bash
-mv /tmp/src/* /tmp/src/.yarn /opt/app-root/src
+mv /tmp/src/* /tmp/src/.yarn /tmp/src/.yarnrc.yml /tmp/src/.ruby-version /opt/app-root/src
 
 npm install -g corepack 
 corepack enable
