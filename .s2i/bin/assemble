@@ -1,8 +1,9 @@
 #!/bin/bash
+mv /tmp/src/* /tmp/src/.yarn /opt/app-root/src
 
-npm install -g corepack && \
-    corepack enable && \
-    mv /tmp/src/* /tmp/src/.yarn /opt/app-root/src && \
-    yarn install && \
-    yarn build:web && \ 
-    cd packages/web
+npm install -g corepack 
+corepack enable
+
+
+yarn install 
+yarn build:web
