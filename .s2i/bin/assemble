@@ -5,7 +5,7 @@ npm install -g corepack && \
     ls -l /tmp/src &&\
     ls -l /opt/app-root && \
     ls -l /opt/app-root/src && \
-    mv /tmp/s2i/src /opt/app-root/ && \
+    mv /tmp/src /opt/app-root/ && \
     yarn install && \
     yarn build:web && \ 
     cd packages/web
