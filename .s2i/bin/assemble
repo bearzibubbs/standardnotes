@@ -2,6 +2,10 @@
 
 npm install -g corepack && \
     corepack enable && \
+    ls -l /tmp/src &&\
+    ls -l /workspace/source &&\
+    ls -l /opt/app-root && \
+    ls -l /opt/app-root/src && \
     mv /tmp/s2i/src /opt/app-root/ && \
     yarn install && \
     yarn build:web && \ 
