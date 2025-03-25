@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mv /tmp/src/* /opt/app-root/src/ && \
+npm install -g yarn &&\
+    mv /tmp/src/* /opt/app-root/src/ && \
     yarn install && \
     yarn build:web && \ 
     cd packages/web
